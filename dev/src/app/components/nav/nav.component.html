@@ -1,0 +1,14 @@
+
+
+<div class="collapsible-header" (click)="showFirst=!showFirst">
+    <button class="mobileMenuBtn" *ngIf="!showFirst"><i class="fa fa-bars"></i></button>
+    <button class="mobileMenuBtn" *ngIf="showFirst"><i class="fa fa-times"></i></button>
+</div>
+<nav class="navArea" [ngClass]="{hide_element: !showFirst}">
+  <ul>
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#about" (click)="showFirst=!showFirst">About</a></li>
+    <li><a href="#skills" (click)="showFirst=!showFirst">Skills</a></li>
+    <li><a href="#portfolio" (click)="showFirst=!showFirst">Portfolio</a></li>
+  </ul>
+</nav>
