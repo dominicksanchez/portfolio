@@ -5,10 +5,10 @@
     "installMode": "prefetch",
     "resources": {
       "files": [
-        "/portfolio/favicon.ico",
-        "/portfolio/index.html",
-        "/portfolio/*.css",
-        "/portfolio/*.js"
+        "/portfolio/assets/favicon.ico",
+        "/portfolio/assets/index.html",
+        "/portfolio/assets/*.css",
+        "/portfolio/assets/*.js"
       ],
       "urls": [
         "https://dominicksanchez.github.io/portfolio/fontawesome-webfont.af7ae505a9eed503f8b8.woff2?v=4.7.0"
