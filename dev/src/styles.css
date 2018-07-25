@@ -64,6 +64,11 @@ body {
 	height: auto;
 }
 
+.bannerSection .description {
+	font-size: 14px;
+	font-weight: normal;
+}
+
 .navArea {
 	position: relative;
 	top: -62px;

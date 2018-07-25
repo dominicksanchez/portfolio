@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable()
-export class PortfolioService {
+export class ProfileService {
+  
   // baseUrl:string = "http://localhost/portfolio-api/service/"
   baseUrl:string = "https://dominick123.000webhostapp.com/portfolio-api/Service/"
 
