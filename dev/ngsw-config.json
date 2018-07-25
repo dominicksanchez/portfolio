@@ -1,14 +1,14 @@
 {
-  "index": "/porfolio/index.html",
+  "index": "/portfolio/index.html",
   "assetGroups": [{
     "name": "app",
     "installMode": "prefetch",
     "resources": {
       "files": [
-        "/porfolio/favicon.ico",
-        "/porfolio/index.html",
-        "/porfolio/*.css",
-        "/porfolio/*.js"
+        "/portfolio/favicon.ico",
+        "/portfolio/index.html",
+        "/portfolio/*.css",
+        "/portfolio/*.js"
       ],
       "urls": [
         "https://dominicksanchez.github.io/portfolio/fontawesome-webfont.af7ae505a9eed503f8b8.woff2?v=4.7.0"
@@ -20,7 +20,7 @@
     "updateMode": "prefetch",
     "resources": {
       "files": [
-        "/porfolio/assets/**"
+        "/portfolio/assets/**"
       ]
     }
   }],
