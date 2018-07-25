@@ -5,8 +5,8 @@
     "installMode": "prefetch",
     "resources": {
       "files": [
-        "/portfolio/assets/favicon.ico",
-        "/portfolio/assets/index.html",
+        "/portfolio/favicon.ico",
+        "/portfolio/index.html",
         "/portfolio/assets/*.css",
         "/portfolio/assets/*.js"
       ],
