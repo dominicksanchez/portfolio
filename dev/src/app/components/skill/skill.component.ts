@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skill.component.css']
 })
 export class SkillComponent implements OnInit {
-  baseUrl:string = '/porfolio';
+  baseUrl:string = '/portfolio';
   
   constructor() { }
 

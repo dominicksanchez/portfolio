@@ -37,7 +37,7 @@ import { environment } from '../environments/environment';
     BrowserModule,
     HttpClientModule,
     Ng2SimplePageScrollModule.forRoot(),
-    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('/portfolio/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     PortfolioService,
